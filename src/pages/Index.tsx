@@ -6,6 +6,7 @@ import FAQBlock, { faqSchema } from "@/components/FAQBlock";
 import InternalLink from "@/components/InternalLink";
 import { motion } from "framer-motion";
 import { Receipt, Users, MessageSquare, CreditCard, Utensils, Home, Plane, PartyPopper } from "lucide-react";
+import heroMockup from "@/assets/hero-imessage-mockup.png";
 
 const homeFAQ = [
   { question: "What is a bill splitting app?", answer: "A bill splitting app is a tool that helps you divide shared expenses among a group of people. Loot is a bill splitting app that works directly inside iMessage, so everyone can participate without downloading a separate app." },
