@@ -1,0 +1,73 @@
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+
+const navLinks = [
+  { label: "How It Works", href: "/how-it-works" },
+  { label: "Features", href: "/features" },
+  { label: "Why Loot", href: "/why-loot" },
+  { label: "Guides", href: "/bill-splitting-guide" },
+  { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/faq" },
+];
+
+export default function SiteHeader() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl shadow-native-sm">
+      <nav className="content-width section-padding flex items-center justify-between h-14" aria-label="Main navigation">
+        <Link to="/" className="text-xl font-semibold tracking-tight text-foreground">
+          Loot
+        </Link>
+
+        {/* Desktop */}
+        <div className="hidden md:flex items-center gap-6">
+          {navLinks.map((l) => (
+            <Link key={l.href} to={l.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              {l.label}
+            </Link>
+          ))}
+          <Link
+            to="/contact"
+            className="inline-flex items-center justify-center h-9 px-4 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            Get Loot
+          </Link>
+        </div>
+
+        {/* Mobile toggle */}
+        <button
+          className="md:hidden p-2 -mr-2 text-foreground"
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle menu"
+        >
+          {open ? <X size={20} /> : <Menu size={20} />}
+        </button>
+      </nav>
+
+      {/* Mobile menu */}
+      {open && (
+        <div className="md:hidden bg-background border-t border-border section-padding pb-4">
+          {navLinks.map((l) => (
+            <Link
+              key={l.href}
+              to={l.href}
+              className="block py-2.5 text-sm text-muted-foreground hover:text-foreground"
+              onClick={() => setOpen(false)}
+            >
+              {l.label}
+            </Link>
+          ))}
+          <Link
+            to="/contact"
+            className="mt-2 inline-flex items-center justify-center h-10 w-full text-sm font-medium rounded-lg bg-primary text-primary-foreground"
+            onClick={() => setOpen(false)}
+          >
+            Get Loot
+          </Link>
+        </div>
+      )}
+    </header>
+  );
+}
