@@ -6,6 +6,7 @@ import FAQBlock, { faqSchema } from "@/components/FAQBlock";
 import InternalLink from "@/components/InternalLink";
 import { motion } from "framer-motion";
 import { Receipt, Users, MessageSquare, CreditCard, Utensils, Home, Plane, PartyPopper } from "lucide-react";
+import heroMockup from "@/assets/hero-imessage-mockup.png";
 
 const homeFAQ = [
   { question: "What is a bill splitting app?", answer: "A bill splitting app is a tool that helps you divide shared expenses among a group of people. Loot is a bill splitting app that works directly inside iMessage, so everyone can participate without downloading a separate app." },
@@ -48,29 +49,44 @@ export default function HomePage() {
       {/* Hero */}
       <section className="section-padding pt-20 pb-16 sm:pt-28 sm:pb-24 min-h-[70svh] flex items-center">
         <div className="content-width">
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, ease: [0.2, 0.8, 0.2, 1] }}
-            className="max-w-2xl"
-          >
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-foreground leading-[1.1] mb-5">
-              Split Bills With Friends Instantly
-            </h1>
-            <p className="text-lg sm:text-xl text-muted-foreground max-w-[55ch] mb-8 leading-relaxed">
-              Loot is a bill splitting app that works directly inside iMessage. No new apps for your friends to download, no awkward "what's your username" moments.
-            </p>
-            <div className="flex flex-wrap gap-3">
-              <CTAButton to="/how-it-works" size="lg">
-                <MessageSquare size={18} className="mr-2" />
-                See How It Works
-              </CTAButton>
-              <CTAButton to="/features" variant="secondary" size="lg">
-                Explore Features
-              </CTAButton>
-            </div>
-            <p className="mt-5 text-sm text-muted-foreground">Average setup time: 14 seconds.</p>
-          </motion.div>
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, ease: [0.2, 0.8, 0.2, 1] }}
+              className="max-w-2xl lg:flex-1"
+            >
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-foreground leading-[1.1] mb-5">
+                Split Bills With Friends Instantly
+              </h1>
+              <p className="text-lg sm:text-xl text-muted-foreground max-w-[55ch] mb-8 leading-relaxed">
+                Loot is a bill splitting app that works directly inside iMessage. No new apps for your friends to download, no awkward "what's your username" moments.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <CTAButton to="/how-it-works" size="lg">
+                  <MessageSquare size={18} className="mr-2" />
+                  See How It Works
+                </CTAButton>
+                <CTAButton to="/features" variant="secondary" size="lg">
+                  Explore Features
+                </CTAButton>
+              </div>
+              <p className="mt-5 text-sm text-muted-foreground">Average setup time: 14 seconds.</p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.15, ease: [0.2, 0.8, 0.2, 1] }}
+              className="lg:flex-1 max-w-md"
+            >
+              <img
+                src={heroMockup}
+                alt="Loot bill splitting app running inside iMessage showing a receipt breakdown and friend assignments"
+                className="w-full h-auto rounded-2xl shadow-native-lg"
+                loading="eager"
+              />
+            </motion.div>
+          </div>
         </div>
       </section>
 
