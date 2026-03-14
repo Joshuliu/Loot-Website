@@ -26,19 +26,31 @@ export default function HowItWorksPage() {
           Splitting bills with friends takes five simple steps — all inside iMessage. No new apps to download, no accounts to create.
         </p>
 
-        <div className="space-y-6">
+        <div className="space-y-8">
           {steps.map((s) => (
-            <div key={s.step} className="flex gap-5 items-start shadow-native-sm rounded-xl p-6">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-semibold text-sm">
-                {s.step}
-              </div>
-              <div>
-                <div className="flex items-center gap-2 mb-1">
-                  <s.icon size={18} className="text-primary" />
-                  <h2 className="text-lg font-semibold">Step {s.step}: {s.title}</h2>
+            <div key={s.step} className={`flex flex-col ${s.img ? 'md:flex-row' : ''} gap-6 items-start shadow-native-sm rounded-xl p-6`}>
+              <div className={`flex gap-5 items-start ${s.img ? 'md:flex-1' : 'w-full'}`}>
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-semibold text-sm">
+                  {s.step}
                 </div>
-                <p className="text-muted-foreground max-w-[55ch]">{s.desc}</p>
+                <div>
+                  <div className="flex items-center gap-2 mb-1">
+                    <s.icon size={18} className="text-primary" />
+                    <h2 className="text-lg font-semibold">Step {s.step}: {s.title}</h2>
+                  </div>
+                  <p className="text-muted-foreground max-w-[55ch]">{s.desc}</p>
+                </div>
               </div>
+              {s.img && (
+                <div className="md:flex-1 max-w-xs mx-auto md:mx-0">
+                  <img
+                    src={s.img}
+                    alt={`${s.title} - Loot bill splitting in iMessage`}
+                    className="w-full h-auto rounded-xl shadow-native"
+                    loading="lazy"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
