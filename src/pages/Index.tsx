@@ -25,6 +25,7 @@ const orgSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   name: "Loot",
+  url: "https://plsloot.me",
   operatingSystem: "iOS",
   applicationCategory: "FinanceApplication",
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
