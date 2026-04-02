@@ -12,8 +12,14 @@ interface Props {
 }
 
 export default function PageLayout({ children, title, description, canonicalPath, schema }: Props) {
-  const baseUrl = "https://getloot.app";
+  const baseUrl = "https://plsloot.me";
   const canonical = canonicalPath ? `${baseUrl}${canonicalPath}` : undefined;
+
+  const schemaItems = schema
+    ? Array.isArray(schema)
+      ? schema
+      : [schema]
+    : [];
 
   return (
     <>
@@ -25,11 +31,11 @@ export default function PageLayout({ children, title, description, canonicalPath
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         {canonical && <meta property="og:url" content={canonical} />}
-        {schema && (
-          <script type="application/ld+json">
-            {JSON.stringify(Array.isArray(schema) ? schema : schema)}
+        {schemaItems.map((s, i) => (
+          <script key={i} type="application/ld+json">
+            {JSON.stringify(s)}
           </script>
-        )}
+        ))}
       </Helmet>
       <SiteHeader />
       <main>{children}</main>
