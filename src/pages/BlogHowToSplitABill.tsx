@@ -51,6 +51,8 @@ export default function BlogHowToSplitABill() {
         <h2 className="text-2xl font-semibold mb-4">Related Guides</h2>
         <ul className="space-y-2">
           <li><InternalLink to="/split-restaurant-bill">How to split a restaurant bill →</InternalLink></li>
+          <li><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></li>
+          <li><InternalLink to="/blog/group-expense-management">Group expense management for trips and ongoing groups →</InternalLink></li>
           <li><InternalLink to="/bill-splitting-guide">Complete bill splitting guide →</InternalLink></li>
           <li><InternalLink to="/best-bill-splitting-app">Best bill splitting apps →</InternalLink></li>
         </ul>

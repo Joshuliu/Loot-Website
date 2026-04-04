@@ -55,6 +55,7 @@ export default function BlogHowToSplitRent() {
         <h2 className="text-2xl font-semibold mb-4">Related</h2>
         <ul className="space-y-2">
           <li><InternalLink to="/split-expenses-with-roommates">Complete roommate expense guide →</InternalLink></li>
+          <li><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></li>
           <li><InternalLink to="/bill-splitting-guide">Bill splitting guide →</InternalLink></li>
         </ul>
       </Section>

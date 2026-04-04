@@ -39,7 +39,10 @@ export default function SplitRoommatesPage() {
         <p className="text-muted-foreground max-w-[55ch] mb-3">
           If rooms are different sizes, split rent proportionally by square footage. For equal rooms, split evenly. Add your rent as a recurring expense in <InternalLink to="/">Loot</InternalLink> so it's tracked automatically each month.
         </p>
-        <InternalLink to="/blog/how-to-split-rent">Read our full rent splitting guide →</InternalLink>
+        <div className="space-y-2">
+          <div><InternalLink to="/blog/how-to-split-rent">Read our full rent splitting guide →</InternalLink></div>
+          <div><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></div>
+        </div>
       </Section>
 
       <Section>

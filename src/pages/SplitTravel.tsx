@@ -60,6 +60,14 @@ export default function SplitTravelPage() {
         </div>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-3">Further Reading</h2>
+        <div className="space-y-2">
+          <div><InternalLink to="/blog/group-expense-management">Group expense management: strategies for any shared group →</InternalLink></div>
+          <div><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></div>
+        </div>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/contact" size="lg">Plan Your Trip With Loot</CTAButton>
       </Section>

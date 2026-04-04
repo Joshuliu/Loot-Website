@@ -50,6 +50,8 @@ export default function BlogGroupExpenseManagement() {
       <Section>
         <h2 className="text-2xl font-semibold mb-4">Related Guides</h2>
         <ul className="space-y-2">
+          <li><InternalLink to="/blog/how-to-split-a-bill">How to split a bill: step-by-step for any situation →</InternalLink></li>
+          <li><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></li>
           <li><InternalLink to="/split-travel-expenses">Split travel expenses →</InternalLink></li>
           <li><InternalLink to="/split-expenses-with-roommates">Split roommate expenses →</InternalLink></li>
           <li><InternalLink to="/bill-splitting-guide">Complete bill splitting guide →</InternalLink></li>
