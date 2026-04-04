@@ -149,7 +149,7 @@ export default function BillSplittingGuidePage() {
           <div className="shadow-native-sm rounded-xl p-6">
             <h3 className="font-semibold mb-1">Restaurant Bills</h3>
             <p className="text-sm text-muted-foreground mb-2">Scan the receipt, assign items, split tax and tip.</p>
-            <InternalLink to="/split-restaurant-bill">Restaurant bill guide →</InternalLink>
+            <InternalLink to="/split-restaurant-bill">How to split a restaurant bill →</InternalLink>
           </div>
           <div className="shadow-native-sm rounded-xl p-6">
             <h3 className="font-semibold mb-1">Roommate Expenses</h3>
@@ -159,7 +159,7 @@ export default function BillSplittingGuidePage() {
           <div className="shadow-native-sm rounded-xl p-6">
             <h3 className="font-semibold mb-1">Travel Expenses</h3>
             <p className="text-sm text-muted-foreground mb-2">Log expenses as they happen, settle at the end.</p>
-            <InternalLink to="/split-travel-expenses">Travel guide →</InternalLink>
+            <InternalLink to="/split-travel-expenses">How to split travel expenses →</InternalLink>
           </div>
           <div className="shadow-native-sm rounded-xl p-6">
             <h3 className="font-semibold mb-1">Group Events</h3>

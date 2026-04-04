@@ -75,7 +75,7 @@ export default function SplitRestaurantBillPage() {
         <h2 className="text-2xl font-semibold mb-4">Why Use an App to Split Restaurant Bills?</h2>
         <div className="space-y-3 text-muted-foreground max-w-[65ch]">
           <p>
-            Manual calculations are error-prone and awkward. A bill splitting app like <InternalLink to="/">Loot</InternalLink> scans your receipt, handles the math, and lets everyone pay their share in seconds — all inside <InternalLink to="/how-it-works">iMessage</InternalLink>.
+            Manual calculations are error-prone and awkward. A bill splitting app like <InternalLink to="/">Loot</InternalLink> scans your receipt, handles the math, and lets everyone pay their share in seconds — all inside iMessage. <InternalLink to="/how-it-works">See how Loot works →</InternalLink>
           </p>
           <p>
             The most common problem with splitting restaurant bills manually is forgetting to account for tax and tip in each person's share. If the group agrees on 20% tip but applies it only to the subtotal before tax, the total collected comes up short. Loot applies tax and tip proportionally to each person's itemized subtotal, so the math always works out.
