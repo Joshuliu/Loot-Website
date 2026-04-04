@@ -46,6 +46,24 @@ export default function WhyLootPage() {
         </div>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-4">Who Loot Is For</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            Loot works for anyone who regularly splits expenses with people they know — friends who go out to dinner, roommates who share a household, travel groups managing a trip budget, or colleagues splitting a work lunch.
+          </p>
+          <p>
+            The iMessage integration makes it especially useful in groups where not everyone is willing to download a new app. Since your friends only need iMessage — which they already have — adoption isn't a barrier. The person who initiated the split does the work; everyone else just taps.
+          </p>
+          <p>
+            Loot is free. There's no premium tier, no ads, and no paywalled features. Receipt scanning, itemized splitting, group tracking, and Apple Pay settlement are all available from day one. The average setup time is 14 seconds — from opening iMessage to sending the first split.
+          </p>
+          <p>
+            If you've tried apps like Splitwise or Settle Up and found that getting everyone to actually use them is the hard part, Loot solves exactly that problem.
+          </p>
+        </div>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/features" size="lg">See All Features</CTAButton>
       </Section>

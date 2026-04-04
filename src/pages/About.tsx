@@ -21,6 +21,15 @@ export default function AboutPage() {
           <p>
             Our mission is to make shared expenses invisible. Not the tracking — that should be clear and fair. But the process should be so fast and simple that it disappears into the natural flow of conversation.
           </p>
+          <p>
+            Loot handles every type of shared expense: restaurant bills split by item, monthly utilities shared by roommates, hotel rooms divided among travelers, and group event costs that span weeks. No matter how complex the situation, Loot reduces it to a single tap.
+          </p>
+          <p>
+            We believe that money should strengthen friendships, not strain them. The best way to keep things fair is to track everything clearly — and the best way to track everything is to make it effortless. That's what Loot is built to do.
+          </p>
+          <p>
+            Receipt scanning powered by OCR, automatic tax and tip distribution, running balance tracking, and one-tap settlement via Apple Pay or Venmo — all inside the iMessage conversation where the plan was made in the first place.
+          </p>
           <p className="text-foreground font-medium">
             Split Bills, Not Friendships.
           </p>

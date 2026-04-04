@@ -12,9 +12,20 @@ export default function ContactPage() {
       <Section>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight mb-6">Contact Us</h1>
         <div className="max-w-lg">
-          <p className="text-muted-foreground mb-8">
+          <p className="text-muted-foreground mb-4">
             Have questions, feedback, or partnership inquiries? We'd love to hear from you.
           </p>
+          <div className="space-y-3 text-muted-foreground mb-8">
+            <p>
+              Whether you've run into an issue with the app, have a feature request, or want to explore a partnership, we read every message and respond to each one personally.
+            </p>
+            <p>
+              Common reasons people reach out include: trouble getting started with Loot, questions about how receipt scanning works, feedback on the splitting experience, and press or business inquiries.
+            </p>
+            <p>
+              We typically respond within one business day. For faster answers to common questions, check out the <a href="/faq" className="underline underline-offset-2">FAQ page</a> — most setup and usage questions are answered there.
+            </p>
+          </div>
           <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium mb-1.5">Name</label>

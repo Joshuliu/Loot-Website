@@ -40,7 +40,19 @@ export default function FeaturesPage() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        <div className="mt-12 max-w-[65ch] space-y-3 text-muted-foreground">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">Why These Features Matter</h2>
+          <p>
+            Most bill splitting friction comes from one of two problems: the person who paid can't be bothered to track it, or the people who owe can't be bothered to venmo back. Loot eliminates both. Receipt scanning means no manual entry for the payer. iMessage integration means no friction for anyone who owes.
+          </p>
+          <p>
+            The result is a system where expenses actually get tracked, balances stay accurate, and payments happen quickly. No more "I'll get you next time" that turns into never, and no more awkward follow-ups weeks after the fact.
+          </p>
+          <p>
+            Loot is free to use. It works for any size group — two roommates splitting utilities or ten friends on a road trip. The core features are available to everyone without a subscription or premium tier.
+          </p>
+        </div>
+        <div className="mt-8 text-center">
           <CTAButton to="/contact" size="lg">Get Loot — It's Free</CTAButton>
         </div>
       </Section>

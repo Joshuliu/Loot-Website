@@ -42,6 +42,24 @@ export default function SplitRoommatesPage() {
         <InternalLink to="/blog/how-to-split-rent">Read our full rent splitting guide →</InternalLink>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-4">Best Practices for Roommate Expenses</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            The most important habit for roommate expense tracking is consistency. Log expenses immediately — not at the end of the week or when you get around to it. A 10-second entry in the app prevents a 10-minute awkward conversation later.
+          </p>
+          <p>
+            Agree on what counts as a shared expense before disputes arise. Generally: rent, utilities, and household supplies that everyone uses are shared. Personal groceries, personal hygiene products, and individual subscriptions are not. The clearer the boundary, the fewer the disputes.
+          </p>
+          <p>
+            Settle on a schedule, not on demand. Asking for money the moment someone owes it creates tension. Agree to settle on the first of each month, or whenever balances pass a threshold like $50. This normalizes the process and removes the awkwardness of individual requests.
+          </p>
+          <p>
+            <InternalLink to="/">Loot</InternalLink> makes this workflow seamless. Add shared expenses as they happen, check the running balance anytime, and settle the net amount at the end of the month with a single Apple Pay or Venmo transaction.
+          </p>
+        </div>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/contact" size="lg">Track Roommate Expenses With Loot</CTAButton>
       </Section>

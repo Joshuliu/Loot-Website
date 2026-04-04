@@ -55,7 +55,19 @@ export default function HowItWorksPage() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        <div className="mt-12 max-w-[65ch] space-y-3 text-muted-foreground">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">Why iMessage?</h2>
+          <p>
+            The biggest problem with existing bill splitting apps is that they require everyone to download and install them. In a group of five, you almost always have at least one person who refuses to download a new app — and that one person breaks the whole system.
+          </p>
+          <p>
+            iMessage is already installed on every iPhone. When you start a Loot split in a group chat, your friends can see the receipt, tap their items, and confirm their share without ever leaving the conversation. No account creation, no app store visit, no friction.
+          </p>
+          <p>
+            For the person initiating the split, the experience is just as fast. Scan the receipt, review the items Loot extracted automatically, and send. The entire process takes under 30 seconds. Loot then tracks the running balance in that conversation, so when the next dinner or trip comes up, everything is already organized.
+          </p>
+        </div>
+        <div className="mt-8 text-center">
           <CTAButton to="/features" size="lg">Explore All Features</CTAButton>
         </div>
       </Section>
