@@ -30,6 +30,24 @@ export default function BlogGroupExpenseManagement() {
       </Section>
 
       <Section>
+        <h2 className="text-2xl font-semibold mb-4">Common Mistakes to Avoid</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            <strong className="text-foreground">Tracking across multiple places.</strong> Splitting some expenses in Venmo, some in texts, and some in a shared note leads to missing charges and disputes. Use a single dedicated app for the entire group.
+          </p>
+          <p>
+            <strong className="text-foreground">Settling after every transaction.</strong> Requesting $7.50 after every coffee run creates unnecessary friction. Let balances accumulate and settle the net amount periodically — weekly for roommates, once at the end of a trip.
+          </p>
+          <p>
+            <strong className="text-foreground">Forgetting who didn't participate.</strong> If only three of five people had the appetizer, only those three should be charged. Accurate assignment prevents resentment over being charged for things you didn't consume.
+          </p>
+          <p>
+            <strong className="text-foreground">Waiting to log expenses.</strong> Memory fades quickly. Log the expense immediately after paying — it takes seconds with an app like <InternalLink to="/">Loot</InternalLink> and prevents the awkward "wait, did I pay for that?" conversation later.
+          </p>
+        </div>
+      </Section>
+
+      <Section>
         <h2 className="text-2xl font-semibold mb-4">Related Guides</h2>
         <ul className="space-y-2">
           <li><InternalLink to="/split-travel-expenses">Split travel expenses →</InternalLink></li>

@@ -38,6 +38,20 @@ export default function BlogHowToSplitRent() {
       </Section>
 
       <Section>
+        <h2 className="text-2xl font-semibold mb-4">What to Include Beyond Base Rent</h2>
+        <p className="text-muted-foreground max-w-[65ch] mb-4">
+          Rent is rarely the only shared expense. A complete roommate agreement should address utilities (electricity, gas, water, internet), parking spots, storage units, and any shared subscriptions. Decide upfront whether these are split equally or tied to usage. Documenting this in a shared app prevents disputes when the bill arrives.
+        </p>
+        <h2 className="text-2xl font-semibold mb-4 mt-8">Tips for Avoiding Roommate Conflict</h2>
+        <ul className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <li><strong className="text-foreground">Set a regular settlement day.</strong> Pick the same day each month — the 1st or 15th — so there's never ambiguity about when payment is expected.</li>
+          <li><strong className="text-foreground">Track in one place.</strong> Mixing Venmo, cash, and mental tabs leads to forgotten payments. Use a single app so everyone has the same record.</li>
+          <li><strong className="text-foreground">Revisit the split if circumstances change.</strong> If someone gets a private bathroom added to their room or a roommate works from home more, the original split may no longer be fair. Adjust when the situation changes.</li>
+          <li><strong className="text-foreground">Keep personal expenses separate.</strong> Shared groceries belong in the tracker. Your personal snacks don't. Clarity about what counts as shared prevents small resentments from building.</li>
+        </ul>
+      </Section>
+
+      <Section>
         <h2 className="text-2xl font-semibold mb-4">Related</h2>
         <ul className="space-y-2">
           <li><InternalLink to="/split-expenses-with-roommates">Complete roommate expense guide →</InternalLink></li>

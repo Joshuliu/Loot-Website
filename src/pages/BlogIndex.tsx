@@ -18,9 +18,17 @@ export default function BlogIndexPage() {
     >
       <Section>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight mb-4">Blog</h1>
-        <p className="text-lg text-muted-foreground max-w-[55ch] mb-10">
+        <p className="text-lg text-muted-foreground max-w-[55ch] mb-6">
           Practical guides on splitting bills, tracking expenses, and managing group finances.
         </p>
+        <div className="max-w-[65ch] space-y-3 text-muted-foreground mb-10">
+          <p>
+            Shared expenses come up constantly — dinners, trips, rent, utilities — and handling them poorly is one of the fastest ways to create tension in any relationship. These guides cover the practical strategies that actually work, from choosing a splitting method to picking the right tool for your situation.
+          </p>
+          <p>
+            Whether you're splitting a single restaurant bill or managing months of roommate expenses, the core principle is the same: track everything clearly, split fairly, and settle simply. The guides below walk through each scenario in detail.
+          </p>
+        </div>
 
         <div className="space-y-6">
           {posts.map((post) => (

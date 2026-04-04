@@ -30,6 +30,24 @@ export default function BlogHowToSplitABill() {
       </Section>
 
       <Section>
+        <h2 className="text-2xl font-semibold mb-4">When to Use Each Method</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            <strong className="text-foreground">Equal split</strong> works best when everyone ordered similarly priced items and the group is comfortable rounding. It's fast and avoids any perception of cheapness. For casual group dinners where orders are in the same price range, equal split is fine.
+          </p>
+          <p>
+            <strong className="text-foreground">Itemized split</strong> is the fairest option when orders vary significantly — one person got a salad, another got a steak. It requires more work manually, but apps like <InternalLink to="/">Loot</InternalLink> automate the entire process by scanning the receipt and letting each person tap their items.
+          </p>
+          <p>
+            <strong className="text-foreground">Proportional split</strong> is useful for group expenses where not everyone participated equally — like a shared hotel room where one person arrived a day late. Calculate shares based on actual usage rather than a flat split.
+          </p>
+          <p>
+            Whichever method you choose, the key is to agree on it before the bill arrives. Switching methods after the fact creates more conflict than it resolves.
+          </p>
+        </div>
+      </Section>
+
+      <Section>
         <h2 className="text-2xl font-semibold mb-4">Related Guides</h2>
         <ul className="space-y-2">
           <li><InternalLink to="/split-restaurant-bill">How to split a restaurant bill →</InternalLink></li>

@@ -59,6 +59,21 @@ export default function SplitBillsPage() {
         </div>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-4">Splitting Bills for Every Situation</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            Different situations call for different approaches. For a restaurant, itemized splitting is usually fairest — each person pays for what they ordered. For a group Airbnb, equal splitting makes sense since everyone gets the same benefit. For utilities, splitting by usage or equally are both common.
+          </p>
+          <p>
+            The key in every case is to agree on the method before splitting, not after. Once the bill arrives and someone realizes they're being asked to cover more than their fair share, resentment sets in quickly. A clear system established upfront prevents that conversation entirely.
+          </p>
+          <p>
+            Loot handles all of these scenarios. For restaurants, scan the receipt and assign items. For group trips or ongoing roommate expenses, create a group and track everything over time. The app calculates the net balance across all expenses so you only need to settle once, minimizing the number of individual payments required.
+          </p>
+        </div>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/contact" size="lg">Start Splitting Bills With Loot</CTAButton>
       </Section>

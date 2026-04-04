@@ -37,6 +37,24 @@ export default function BlogHowToTrackSharedExpenses() {
         </ul>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-4">Best Practices for Shared Expense Tracking</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            <strong className="text-foreground">Log immediately.</strong> Add the expense the moment you pay it. Waiting until you get home means forgetting the exact amount, who was there, or what items were shared. A quick entry while still at the table takes under ten seconds.
+          </p>
+          <p>
+            <strong className="text-foreground">Be specific about who owes what.</strong> "Split 3 ways" is fine for equal shares. But when only two people had the appetizer, charge only those two. Accuracy prevents minor grievances from accumulating into bigger disputes.
+          </p>
+          <p>
+            <strong className="text-foreground">Settle the net balance, not individual transactions.</strong> If you paid for dinner and a friend paid for the Uber, don't exchange two separate payments. Let the app calculate the net difference and make one transfer. <InternalLink to="/">Loot</InternalLink> does this automatically.
+          </p>
+          <p>
+            <strong className="text-foreground">Establish a settlement schedule.</strong> For ongoing groups like roommates, pick a regular date — the first of the month works well. For trips, settle once when you're back. Having a predictable schedule removes the awkwardness of asking for money.
+          </p>
+        </div>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/contact" size="lg">Track Expenses With Loot</CTAButton>
       </Section>

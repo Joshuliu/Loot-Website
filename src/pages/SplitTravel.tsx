@@ -42,6 +42,24 @@ export default function SplitTravelPage() {
         </p>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-4">Tips for Managing Travel Expenses</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            Set up the group in <InternalLink to="/">Loot</InternalLink> before the trip starts, not after. Add the Airbnb or hotel deposit as the first expense. This gets everyone in the habit of logging costs early, so nothing gets forgotten by the end of the trip.
+          </p>
+          <p>
+            Decide upfront how you'll handle expenses where participation differs. If two people skipped the museum but three went, only those three should pay for admission. Loot lets you assign each expense to the specific people involved, so participation-based splits are handled automatically.
+          </p>
+          <p>
+            Large prepaid expenses like flights or Airbnbs booked by one person should go into the tracker immediately. These are easy to forget since they were paid weeks in advance, but they're often the biggest items in the final balance.
+          </p>
+          <p>
+            Currency conversions for international trips can be logged in the local currency. Settle in the home currency when you return using the exchange rate from the trip — or agree on an average rate for the trip duration. The key is deciding the method in advance so there's no dispute about rates after the fact.
+          </p>
+        </div>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/contact" size="lg">Plan Your Trip With Loot</CTAButton>
       </Section>

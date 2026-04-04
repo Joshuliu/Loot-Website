@@ -33,8 +33,11 @@ export default function FAQPage() {
     >
       <Section>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight mb-4">Frequently Asked Questions</h1>
-        <p className="text-lg text-muted-foreground max-w-[55ch] mb-10">
+        <p className="text-lg text-muted-foreground max-w-[55ch] mb-4">
           Everything you need to know about splitting bills with Loot.
+        </p>
+        <p className="text-muted-foreground max-w-[65ch] mb-10">
+          Loot is a bill splitting app built into iMessage. It lets you scan receipts, assign items to specific people, track running balances across multiple outings, and settle payments via Apple Pay or Venmo — all without leaving the conversation. The questions below cover setup, features, and common use cases.
         </p>
         <FAQBlock items={faqItems} />
         <div className="mt-10">
