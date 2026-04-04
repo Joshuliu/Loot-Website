@@ -1,6 +1,7 @@
 import PageLayout from "@/components/PageLayout";
 import Section from "@/components/Section";
 import CTAButton from "@/components/CTAButton";
+import InternalLink from "@/components/InternalLink";
 
 export default function ContactPage() {
   return (
@@ -26,6 +27,7 @@ export default function ContactPage() {
               We typically respond within one business day. For faster answers to common questions, check out the <a href="/faq" className="underline underline-offset-2">FAQ page</a> — most setup and usage questions are answered there.
             </p>
           </div>
+          <h2 className="text-xl font-semibold mb-3">Send Us a Message</h2>
           <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium mb-1.5">Name</label>
@@ -41,6 +43,27 @@ export default function ContactPage() {
             </div>
             <CTAButton>Send Message</CTAButton>
           </form>
+        </div>
+      </Section>
+
+      <Section>
+        <h2 className="text-xl font-semibold mb-4">Common Questions</h2>
+        <div className="max-w-[65ch] space-y-4 text-muted-foreground">
+          <p>
+            <strong className="text-foreground">Getting started:</strong> Download Loot from the App Store and open iMessage. The Loot icon appears in your iMessage app drawer automatically — no separate account needed. Your friends don't need to install anything.
+          </p>
+          <p>
+            <strong className="text-foreground">Receipt scanning:</strong> Point your camera at any printed or digital receipt. Loot's OCR reads every line item, price, tax, and tip. You can edit any item manually if needed before sending the split to the group.
+          </p>
+          <p>
+            <strong className="text-foreground">Settlement:</strong> Loot integrates with Apple Pay and Venmo for one-tap payment. You can also mark payments as settled manually for cash or bank transfers.
+          </p>
+          <p>
+            <strong className="text-foreground">Privacy and data:</strong> Loot does not store your payment credentials. All financial transactions are handled by Apple Pay or Venmo's secure infrastructure.
+          </p>
+          <p>
+            If your question isn't answered above, check the <InternalLink to="/faq">full FAQ</InternalLink> or send us a message using the form above.
+          </p>
         </div>
       </Section>
     </PageLayout>

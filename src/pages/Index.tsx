@@ -97,6 +97,14 @@ export default function HomePage() {
         <AnswerCard>
           Loot is a bill splitting and shared expense tracking app designed to make splitting money with friends simple and stress-free. Unlike traditional expense apps, Loot works directly inside iMessage so you can split bills without leaving your conversation.
         </AnswerCard>
+        <div className="mt-6 space-y-4 text-muted-foreground max-w-[65ch]">
+          <p>
+            Every bill splitting app works the same way: one person downloads it, tries to get everyone else to download it, fails to get at least one person to join, and gives up. Loot solves this by living inside iMessage — the app your whole group already uses every day.
+          </p>
+          <p>
+            When you start a split in Loot, it appears as an interactive message bubble in your group chat. Your friends tap their items, confirm their share, and pay — all without leaving the conversation or downloading anything new. The person who paid gets reimbursed instantly.
+          </p>
+        </div>
       </Section>
 
       {/* Pain points */}
@@ -136,14 +144,25 @@ export default function HomePage() {
             </div>
           ))}
         </div>
-        <div className="mt-6">
+        <div className="mt-6 space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            Open Loot inside any iMessage group chat and tap the camera to scan a receipt. Loot's OCR technology reads every line item, price, tax, and tip automatically — no manual entry required. Each friend taps the items they ordered directly in the chat, and Loot calculates what everyone owes including a proportional share of tax and tip.
+          </p>
+          <p>
+            Loot tracks running balances across all your shared expenses. Instead of settling after every dinner or ride, the balance accumulates and you settle periodically with one tap using Apple Pay or Venmo.
+          </p>
+        </div>
+        <div className="mt-4">
           <InternalLink to="/how-it-works">See the full walkthrough →</InternalLink>
         </div>
       </Section>
 
       {/* Use cases */}
       <Section>
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Perfect for Every Shared Expense</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Perfect for Every Shared Expense</h2>
+        <p className="text-muted-foreground max-w-[65ch] mb-6">
+          Whether you're splitting a single dinner check or managing months of shared costs, Loot handles any situation where more than one person is paying for something together.
+        </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {useCases.map((uc) => (
             <InternalLink to={uc.link} key={uc.label}>
@@ -159,7 +178,10 @@ export default function HomePage() {
 
       {/* Why Loot is best */}
       <Section>
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Why Loot Is the Best Bill Splitting App</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Why Loot Is the Best Bill Splitting App</h2>
+        <p className="text-muted-foreground max-w-[65ch] mb-6">
+          Splitwise and Settle Up require every person in the group to create an account and install a separate app. Loot requires nothing from your friends — it works inside the iMessage conversation you're already in. That difference is why Loot actually gets used.
+        </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>

@@ -37,7 +37,7 @@ export default function FAQBlock({ items }: Props) {
           <AccordionTrigger className="text-left text-base font-medium py-5 hover:no-underline">
             {item.question}
           </AccordionTrigger>
-          <AccordionContent className="text-muted-foreground text-base pb-5 max-w-[65ch]">
+          <AccordionContent forceMount className="text-muted-foreground text-base pb-5 max-w-[65ch]">
             {item.answer}
           </AccordionContent>
         </AccordionItem>

@@ -6,11 +6,11 @@ import scanImg from "@/assets/how-it-works-scan.png";
 import assignImg from "@/assets/how-it-works-assign.png";
 
 const steps = [
-  { icon: MessageSquare, title: "Open iMessage", desc: "Tap the Loot icon in your iMessage app drawer. No separate app needed for your friends.", step: "1", img: null as string | null },
-  { icon: Receipt, title: "Scan a Receipt", desc: "Point your camera at the receipt. Loot's OCR extracts every item and price automatically.", step: "2", img: scanImg },
-  { icon: Users, title: "Assign Items", desc: "Friends tap the items they ordered directly in the chat bubble. Everyone sees who owes what.", step: "3", img: assignImg },
-  { icon: CheckCircle, title: "Track Balances", desc: "Loot keeps a running balance across all your shared expenses. No mental math required.", step: "4", img: null as string | null },
-  { icon: CreditCard, title: "Settle Payments", desc: "One-tap settlement via Apple Pay or Venmo. The entire flow takes under 30 seconds.", step: "5", img: null as string | null },
+  { icon: MessageSquare, title: "Open iMessage", desc: "Tap the Loot icon in your iMessage app drawer. Loot appears automatically once installed — no setup needed. Your friends don't need to do anything in advance. They'll interact with the split directly inside the chat message.", step: "1", img: null as string | null },
+  { icon: Receipt, title: "Scan a Receipt", desc: "Point your camera at any printed or digital receipt. Loot's OCR technology reads every line item, quantity, price, tax, and tip. No manual entry required. You can edit any item if the scan misses something, then send the split to the group.", step: "2", img: scanImg },
+  { icon: Users, title: "Assign Items", desc: "A message bubble appears in the group chat showing the full receipt. Each friend taps the items they ordered. Shared items — like a bottle of wine or an appetizer — can be assigned to multiple people and split proportionally. Everyone sees the live breakdown update as people claim their items.", step: "3", img: assignImg },
+  { icon: CheckCircle, title: "Track Balances", desc: "After each split, Loot updates the running balance for each person in the group. Instead of settling after every meal, balances accumulate. You can see exactly who owes what at any time — no mental math, no spreadsheet.", step: "4", img: null as string | null },
+  { icon: CreditCard, title: "Settle Payments", desc: "When you're ready to settle, tap once to pay via Apple Pay or Venmo. Loot calculates the minimum number of transfers needed so no one has to make multiple payments. The entire process from scan to settlement takes under 30 seconds.", step: "5", img: null as string | null },
 ];
 
 export default function HowItWorksPage() {
