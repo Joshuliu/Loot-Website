@@ -38,7 +38,7 @@ export default function SplitTravelPage() {
       <Section>
         <h2 className="text-2xl font-semibold mb-4">The Golden Rule: One Settlement at the End</h2>
         <p className="text-muted-foreground max-w-[55ch]">
-          Don't try to settle after every meal or taxi ride. Track expenses throughout the trip and settle the net balance once when you get home. <InternalLink to="/how-it-works">Loot</InternalLink> calculates exactly who owes whom, minimizing the number of payments needed.
+          Don't try to settle after every meal or taxi ride. Track expenses throughout the trip and settle the net balance once when you get home. Loot calculates exactly who owes whom, minimizing the number of payments needed. <InternalLink to="/how-it-works">See how Loot works →</InternalLink>
         </p>
       </Section>
 
