@@ -137,8 +137,9 @@ export default function BillSplittingGuidePage() {
           <li><strong className="text-foreground">Splitwise</strong> — Full-featured expense tracker. Good for long-term groups but requires everyone to sign up.</li>
           <li><strong className="text-foreground">Settle Up</strong> — Simple and free. Good for basic tracking but lacks receipt scanning.</li>
         </ul>
-        <div className="mt-4">
-          <InternalLink to="/best-bill-splitting-app">See our full app comparison →</InternalLink>
+        <div className="mt-4 space-y-2">
+          <div><InternalLink to="/best-bill-splitting-app">See our full app comparison →</InternalLink></div>
+          <div><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></div>
         </div>
       </Section>
 
@@ -163,7 +164,7 @@ export default function BillSplittingGuidePage() {
           <div className="shadow-native-sm rounded-xl p-6">
             <h3 className="font-semibold mb-1">Group Events</h3>
             <p className="text-sm text-muted-foreground mb-2">Parties, gifts, activities — all tracked in one place.</p>
-            <InternalLink to="/split-bills">General splitting guide →</InternalLink>
+            <InternalLink to="/blog/group-expense-management">Group expense management guide →</InternalLink>
           </div>
         </div>
       </Section>
@@ -177,6 +178,12 @@ export default function BillSplittingGuidePage() {
           <li><strong className="text-foreground">Using mental math.</strong> Human calculation is unreliable. Use an app.</li>
           <li><strong className="text-foreground">Making it awkward.</strong> Frame it as "let's use an app so it's fair" rather than "you owe me $12.47."</li>
         </ul>
+        <div className="mt-6 space-y-2">
+          <p className="text-sm text-muted-foreground font-medium">Further reading:</p>
+          <div><InternalLink to="/blog/how-to-split-a-bill">How to split a bill: the complete step-by-step guide →</InternalLink></div>
+          <div><InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink></div>
+          <div><InternalLink to="/blog/group-expense-management">Group expense management: a practical guide →</InternalLink></div>
+        </div>
       </Section>
 
       <Section className="text-center">

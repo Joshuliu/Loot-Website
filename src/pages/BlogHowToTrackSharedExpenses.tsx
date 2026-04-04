@@ -55,6 +55,16 @@ export default function BlogHowToTrackSharedExpenses() {
         </div>
       </Section>
 
+      <Section>
+        <h2 className="text-2xl font-semibold mb-4">Related Guides</h2>
+        <ul className="space-y-2">
+          <li><InternalLink to="/blog/how-to-split-a-bill">How to split a bill fairly: step-by-step guide →</InternalLink></li>
+          <li><InternalLink to="/blog/group-expense-management">Group expense management for any shared group →</InternalLink></li>
+          <li><InternalLink to="/split-expenses-with-roommates">How to split expenses with roommates →</InternalLink></li>
+          <li><InternalLink to="/bill-splitting-guide">Complete bill splitting guide →</InternalLink></li>
+        </ul>
+      </Section>
+
       <Section className="text-center">
         <CTAButton to="/contact" size="lg">Track Expenses With Loot</CTAButton>
       </Section>

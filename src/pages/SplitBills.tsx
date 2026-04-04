@@ -27,12 +27,13 @@ export default function SplitBillsPage() {
 
       <Section>
         <h2 className="text-2xl font-semibold mb-4">The Best Way to Split Bills</h2>
-        <ul className="space-y-3 text-muted-foreground max-w-[55ch]">
+        <ul className="space-y-3 text-muted-foreground max-w-[55ch] mb-4">
           <li className="flex gap-2"><span className="text-primary font-semibold">1.</span> Track every shared expense in one place.</li>
           <li className="flex gap-2"><span className="text-primary font-semibold">2.</span> Assign items to specific people when possible.</li>
           <li className="flex gap-2"><span className="text-primary font-semibold">3.</span> Let the app calculate running balances.</li>
           <li className="flex gap-2"><span className="text-primary font-semibold">4.</span> Settle periodically, not after every transaction.</li>
         </ul>
+        <InternalLink to="/blog/how-to-split-a-bill">Read the complete guide to splitting a bill →</InternalLink>
       </Section>
 
       <Section>
@@ -40,6 +41,7 @@ export default function SplitBillsPage() {
         <p className="text-muted-foreground max-w-[55ch] mb-4">
           Apps like <InternalLink to="/best-bill-splitting-app">Splitwise, Settle Up, and Loot</InternalLink> automate expense tracking. Loot's advantage is that it works inside iMessage — your friends don't need to download anything.
         </p>
+        <InternalLink to="/blog/how-to-track-shared-expenses">How to track shared expenses without spreadsheets →</InternalLink>
       </Section>
 
       <Section>
