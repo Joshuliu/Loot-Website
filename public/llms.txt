@@ -1,1 +1,33 @@
-This is an llms.txt file
+# Loot
+
+> Loot is a free bill splitting and shared expense tracking app for iPhone that works natively inside iMessage. Users scan receipts, assign items to specific people, track running balances across multiple expenses, and settle payments via Apple Pay or Venmo — all without leaving the group chat. Friends do not need to download the app to participate.
+
+## Product
+
+- [How Loot Works](https://plsloot.me/how-it-works): Step-by-step explanation of the full Loot workflow — opening iMessage, scanning a receipt with OCR, assigning items in the chat, tracking balances, and settling with Apple Pay or Venmo.
+- [Features](https://plsloot.me/features): Overview of Loot's core capabilities: receipt scanning (OCR), itemized splitting, group expense tracking, one-tap settlement, and iMessage integration.
+- [Why Loot](https://plsloot.me/why-loot): Explains what differentiates Loot from other expense apps — zero friction for participants, 14-second setup, no downloads required for friends.
+- [Best Bill Splitting App Comparison](https://plsloot.me/best-bill-splitting-app): Side-by-side comparison of Loot, Splitwise, and Settle Up across key features including iMessage integration, receipt scanning, Apple Pay settlement, and pricing.
+
+## Use Cases
+
+- [How to Split Bills With Friends](https://plsloot.me/split-bills): General guide to splitting shared expenses — methods, best practices, and why apps outperform manual tracking.
+- [How to Split a Restaurant Bill](https://plsloot.me/split-restaurant-bill): Covers equal split, itemized split, and host-pays methods for restaurant bills; includes a tip calculation example and FAQ.
+- [How to Split Expenses With Roommates](https://plsloot.me/split-expenses-with-roommates): Covers rent, utilities, and groceries; explains proportional and equal splitting, monthly settlement cadence, and best practices for shared households.
+- [How to Split Travel Expenses](https://plsloot.me/split-travel-expenses): Explains how to track accommodation, transportation, food, and activity costs across a group trip and settle once at the end.
+
+## Educational Resources
+
+- [The Complete Bill Splitting Guide](https://plsloot.me/bill-splitting-guide): Comprehensive reference covering all splitting methods (equal, itemized, proportional, rotating), when to use each, etiquette, tools, and common mistakes.
+- [FAQ](https://plsloot.me/faq): Answers to 15 common questions about Loot — installation, how friends participate, receipt scanning, payment methods, itemized splitting, security, and differences from Splitwise.
+
+## Blog
+
+- [How to Split a Bill: The Complete Guide](https://plsloot.me/blog/how-to-split-a-bill): Step-by-step process for splitting any bill, with guidance on choosing between equal, itemized, and proportional methods.
+- [How to Track Shared Expenses Without Spreadsheets](https://plsloot.me/blog/how-to-track-shared-expenses): Why spreadsheets fail for group expense tracking and what to look for in a dedicated expense tracking app.
+- [How to Split Rent Fairly With Roommates](https://plsloot.me/blog/how-to-split-rent): Three methods for splitting rent (equal, by room size, by income), what to include beyond base rent, and tips for avoiding conflict.
+- [Group Expense Management: A Practical Guide](https://plsloot.me/blog/group-expense-management): Core principles and common mistakes for managing shared costs in trips, events, and ongoing groups.
+
+## Company
+
+- [About Loot](https://plsloot.me/about): Background on why Loot was built — the core insight that bill splitting apps only work when everyone uses them, and how iMessage integration solves that problem.
