@@ -17,8 +17,8 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl shadow-native-sm">
       <nav className="content-width section-padding flex items-center justify-between h-14" aria-label="Main navigation">
-        <Link to="/" className="text-xl font-semibold tracking-tight text-foreground">
-          Loot
+        <Link to="/">
+          <img src="/logo.svg" alt="Loot" className="h-8 w-auto" />
         </Link>
 
         {/* Desktop */}
