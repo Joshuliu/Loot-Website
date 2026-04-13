@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
+const appStoreUrl = "https://apps.apple.com/us/app/loot-me/id6757330604";
+
 const navLinks = [
   { label: "How It Works", href: "/how-it-works" },
   { label: "Features", href: "/features" },
@@ -29,12 +31,14 @@ export default function SiteHeader() {
               {l.label}
             </Link>
           ))}
-          <Link
-            to="/contact"
+          <a
+            href={appStoreUrl}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center justify-center h-9 px-4 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
           >
             Get Loot
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -60,13 +64,15 @@ export default function SiteHeader() {
               {l.label}
             </Link>
           ))}
-          <Link
-            to="/contact"
+          <a
+            href={appStoreUrl}
+            target="_blank"
+            rel="noreferrer"
             className="mt-2 inline-flex items-center justify-center h-10 w-full text-sm font-medium rounded-lg bg-primary text-primary-foreground"
             onClick={() => setOpen(false)}
           >
             Get Loot
-          </Link>
+          </a>
         </div>
       )}
     </header>

@@ -225,7 +225,7 @@ export default function HomePage() {
       <Section className="text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Stop Arguing About Money</h2>
         <p className="text-muted-foreground mb-6 max-w-md mx-auto">Split bills in seconds. Right inside iMessage.</p>
-        <CTAButton to="/contact" size="lg">Get Loot — It's Free</CTAButton>
+        <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Get Loot — It's Free</CTAButton>
       </Section>
     </PageLayout>
   );

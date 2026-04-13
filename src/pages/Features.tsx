@@ -53,7 +53,7 @@ export default function FeaturesPage() {
           </p>
         </div>
         <div className="mt-8 text-center">
-          <CTAButton to="/contact" size="lg">Get Loot — It's Free</CTAButton>
+          <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Get Loot — It's Free</CTAButton>
         </div>
       </Section>
     </PageLayout>

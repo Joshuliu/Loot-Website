@@ -59,7 +59,7 @@ export default function BlogHowToSplitABill() {
       </Section>
 
       <Section className="text-center">
-        <CTAButton to="/contact" size="lg">Try Loot Free</CTAButton>
+        <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Try Loot Free</CTAButton>
       </Section>
     </PageLayout>
   );

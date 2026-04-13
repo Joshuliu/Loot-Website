@@ -189,7 +189,7 @@ export default function BillSplittingGuidePage() {
       <Section className="text-center">
         <h2 className="text-2xl font-semibold mb-4">Ready to Split Bills the Easy Way?</h2>
         <p className="text-muted-foreground mb-6 max-w-md mx-auto">Loot handles the math, the tracking, and the settling — all inside iMessage.</p>
-        <CTAButton to="/contact" size="lg">Get Loot — It's Free</CTAButton>
+        <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Get Loot — It's Free</CTAButton>
       </Section>
     </PageLayout>
   );
