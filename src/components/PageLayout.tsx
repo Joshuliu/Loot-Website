@@ -37,7 +37,7 @@ export default function PageLayout({ children, title, description, canonicalPath
             {JSON.stringify(s)}
           </script>
         ))}
-        <meta property="og:image" content={`${baseUrl}/circle_1024x1024.png`} />
+        <meta property="og:image" content={`${baseUrl}/screenshot.png`} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
