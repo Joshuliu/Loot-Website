@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -49,14 +50,22 @@ export default function FAQBlock({ items }: Props) {
                 className={cn("h-4 w-4 shrink-0 transition-transform duration-200", isOpen && "rotate-180")}
               />
             </button>
-            {isOpen && (
-              <div
-                id={`${itemId}-content`}
-                className="max-w-[65ch] pb-5 text-base text-muted-foreground"
-              >
-                {item.answer}
-              </div>
-            )}
+            <AnimatePresence initial={false}>
+              {isOpen && (
+                <motion.div
+                  id={`${itemId}-content`}
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.22, ease: [0.2, 0.8, 0.2, 1] }}
+                  className="overflow-hidden"
+                >
+                  <div className="max-w-[65ch] pb-5 text-base text-muted-foreground">
+                    {item.answer}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         );
       })}
