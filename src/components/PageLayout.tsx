@@ -14,7 +14,7 @@ interface Props {
 export default function PageLayout({ children, title, description, canonicalPath, schema }: Props) {
   const baseUrl = "https://plsloot.me";
   const canonical = canonicalPath ? `${baseUrl}${canonicalPath}` : undefined;
-  const socialImage = `${baseUrl}/circle_1024x1024.png`;
+  const socialImage = `${baseUrl}/screenshot.png`;
 
   const schemaItems = schema
     ? Array.isArray(schema)
@@ -48,7 +48,7 @@ export default function PageLayout({ children, title, description, canonicalPath
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={`${baseUrl}/circle_1024x1024.png`} />
+        <meta name="twitter:image" content={`${baseUrl}/screenshot.png`} />
       </Helmet>
       <SiteHeader />
       <main>{children}</main>
