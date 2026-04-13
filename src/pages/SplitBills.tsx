@@ -77,7 +77,7 @@ export default function SplitBillsPage() {
       </Section>
 
       <Section className="text-center">
-        <CTAButton to="/contact" size="lg">Start Splitting Bills With Loot</CTAButton>
+        <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Start Splitting Bills With Loot</CTAButton>
       </Section>
     </PageLayout>
   );

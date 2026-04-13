@@ -61,7 +61,7 @@ export default function BlogHowToSplitRent() {
       </Section>
 
       <Section className="text-center">
-        <CTAButton to="/contact" size="lg">Track Rent With Loot</CTAButton>
+        <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Track Rent With Loot</CTAButton>
       </Section>
     </PageLayout>
   );

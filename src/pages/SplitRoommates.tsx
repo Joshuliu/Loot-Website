@@ -64,7 +64,7 @@ export default function SplitRoommatesPage() {
       </Section>
 
       <Section className="text-center">
-        <CTAButton to="/contact" size="lg">Track Roommate Expenses With Loot</CTAButton>
+        <CTAButton href="https://apps.apple.com/us/app/loot-me/id6757330604" size="lg">Track Roommate Expenses With Loot</CTAButton>
       </Section>
     </PageLayout>
   );
