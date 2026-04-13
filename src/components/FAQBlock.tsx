@@ -1,9 +1,6 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export interface FAQItem {
   question: string;
@@ -30,18 +27,39 @@ export function faqSchema(items: FAQItem[]) {
 }
 
 export default function FAQBlock({ items }: Props) {
+  const [openItem, setOpenItem] = useState<string | null>(null);
+
   return (
-    <Accordion type="single" collapsible className="w-full">
-      {items.map((item, i) => (
-        <AccordionItem key={i} value={`faq-${i}`} className="border-b border-foreground/5">
-          <AccordionTrigger className="text-left text-base font-medium py-5 hover:no-underline">
-            {item.question}
-          </AccordionTrigger>
-          <AccordionContent forceMount className="text-muted-foreground text-base pb-5 max-w-[65ch]">
-            {item.answer}
-          </AccordionContent>
-        </AccordionItem>
-      ))}
-    </Accordion>
+    <div className="w-full">
+      {items.map((item, i) => {
+        const itemId = `faq-${i}`;
+        const isOpen = openItem === itemId;
+
+        return (
+          <div key={itemId} className="border-b border-foreground/5">
+            <button
+              type="button"
+              className="flex w-full items-center justify-between py-5 text-left text-base font-medium"
+              aria-expanded={isOpen}
+              aria-controls={`${itemId}-content`}
+              onClick={() => setOpenItem(isOpen ? null : itemId)}
+            >
+              <span>{item.question}</span>
+              <ChevronDown
+                className={cn("h-4 w-4 shrink-0 transition-transform duration-200", isOpen && "rotate-180")}
+              />
+            </button>
+            {isOpen && (
+              <div
+                id={`${itemId}-content`}
+                className="max-w-[65ch] pb-5 text-base text-muted-foreground"
+              >
+                {item.answer}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
   );
 }
