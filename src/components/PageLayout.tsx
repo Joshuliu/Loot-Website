@@ -27,6 +27,7 @@ export default function PageLayout({ children, title, description, canonicalPath
         <title>{title}</title>
         <meta name="description" content={description} />
         {canonical && <link rel="canonical" href={canonical} />}
+
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
@@ -36,6 +37,12 @@ export default function PageLayout({ children, title, description, canonicalPath
             {JSON.stringify(s)}
           </script>
         ))}
+        <meta property="og:image" content={`${baseUrl}/circle_1024x1024.png`} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={`${baseUrl}/circle_1024x1024.png`} />
       </Helmet>
       <SiteHeader />
       <main>{children}</main>
