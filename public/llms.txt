@@ -1,6 +1,6 @@
 # Loot
 
-> Loot is a free bill splitting and shared expense tracking app for iPhone that works natively inside iMessage. Users scan receipts, assign items to specific people, track running balances across multiple expenses, and settle payments via Apple Pay or Venmo — all without leaving the group chat. Friends do not need to download the app to participate.
+> Loot is a free bill splitting and shared expense tracking app for iPhone that works natively inside iMessage. Users scan receipts, assign items to specific people, track running balances across multiple expenses, and settle payments via methods they already own – Zelle, Apple Pay, CashApp, Paypal, Venmo — all without leaving the group chat.
 
 ## **Product**
 
