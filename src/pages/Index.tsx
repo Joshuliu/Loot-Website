@@ -149,7 +149,7 @@ export default function HomePage() {
             Open Loot inside any iMessage group chat and tap the camera to scan a receipt. Loot's OCR technology reads every line item, price, tax, and tip automatically — no manual entry required. Each friend taps the items they ordered directly in the chat, and Loot calculates what everyone owes including a proportional share of tax and tip.
           </p>
           <p>
-            Loot tracks running balances across all your shared expenses. Instead of settling after every dinner or ride, the balance accumulates and you settle periodically with one tap using Apple Pay or Venmo.
+            Loot tracks running balances across all your shared expenses. Instead of settling after every dinner or ride, the balance accumulates and you settle periodically with one tap using common payment methods like Apple Pay or Venmo.
           </p>
         </div>
         <div className="mt-4">

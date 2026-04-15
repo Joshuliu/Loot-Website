@@ -4,7 +4,7 @@ import CTAButton from "@/components/CTAButton";
 import FAQBlock, { faqSchema } from "@/components/FAQBlock";
 
 const faqItems = [
-  { question: "What is Loot?", answer: "Loot is a bill splitting and shared expense tracking app that works directly inside iMessage. It lets you scan receipts, assign items to specific people, and settle payments without leaving the conversation. Your friends don't need to download anything — they interact with splits directly in the group chat." },
+  { question: "What is Loot?", answer: "Loot is a bill splitting and shared expense tracking app that works directly inside iMessage. It lets you scan receipts, assign items to specific people, and settle payments without leaving the conversation. Your friends don't need to exit the app — they interact with splits directly in the group chat." },
   { question: "How do I install Loot?", answer: "Download Loot from the App Store and open any iMessage conversation. The Loot icon appears automatically in your iMessage app drawer — no separate account, login, or setup required. Your contacts can participate immediately without installing anything themselves." },
   { question: "Do my friends need to download Loot?", answer: "No. Your friends interact with bill splits directly inside the iMessage conversation. When you send a split, it appears as a message bubble they can tap to claim items and confirm their share. They never leave the chat and never visit the App Store." },
   { question: "Is Loot free?", answer: "Yes. Loot is completely free to use. There is no premium tier, no subscription, and no paywalled features. Receipt scanning, itemized splitting, group expense tracking, and one-tap settlement are all available at no cost." },
