@@ -48,6 +48,14 @@ export default function BlogHowToSplitABill() {
       </Section>
 
       <Section>
+        <h2 className="text-2xl font-semibold mb-4">Using a Bill Splitting App</h2>
+        <div className="space-y-3 text-muted-foreground max-w-[65ch]">
+          <p>
+            Money conversations between friends can get uncomfortable fast—no one wants to chase down payments or remind someone they still owe for dinner. That’s where a bill splitting app like Loot changes everything. Instead of awkward texts or mental tallies, you can just “Loot Me!” to instantly send or request payment, making expectations clear without the friction. Loot handles the tracking, splits bills automatically, and keeps everyone on the same page, so there’s no need for uncomfortable follow-ups. Whether it’s group trips, shared tabs, or everyday expenses, using Loot turns bill splitting into a seamless, stress-free experience and removes the social tension from managing money with friends.
+          </p>
+      <Section>
+
+      <Section>
         <h2 className="text-2xl font-semibold mb-4">Related Guides</h2>
         <ul className="space-y-2">
           <li><InternalLink to="/split-restaurant-bill">How to split a restaurant bill →</InternalLink></li>
