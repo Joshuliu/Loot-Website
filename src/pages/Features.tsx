@@ -8,7 +8,7 @@ const features = [
   { icon: Receipt, title: "Receipt Scanning", desc: "Point your camera at any receipt. Loot uses OCR to extract every line item, price, tax, and tip automatically. No manual entry required.", link: "/split-restaurant-bill", linkText: "How to split a restaurant bill →" },
   { icon: Split, title: "Itemized Bill Splitting", desc: "Assign specific items to specific people, or tap to claim the items you ordered. Split shared items proportionally. Handle tax and tip with one tap.", link: "/split-bills", linkText: "How to split bills with friends →" },
   { icon: Users, title: "Group Expense Tracking", desc: "Track expenses across multiple outings, trips, or months. Loot maintains running balances so you only settle once.", link: "/split-travel-expenses", linkText: "How to split travel expenses →" },
-  { icon: CreditCard, title: "One-Tap Settlement", desc: "Settle debts instantly via Apple Pay or Venmo. No fumbling with payment apps or bank transfers.", link: "/split-bills", linkText: "Guide to splitting bills →" },
+  { icon: CreditCard, title: "One-Tap Settlement", desc: "Settle debts instantly via ePayment apps like Apple Pay, Zelle, Paypal, CashApp, or Venmo. No fumbling with payment apps or bank transfers.", link: "/split-bills", linkText: "Guide to splitting bills →" },
   { icon: MessageSquare, title: "iMessage Integration", desc: "Loot lives inside iMessage. Your friends don't need to download an app, create an account, or leave the conversation.", link: "/how-it-works", linkText: "See how Loot works →" },
 ];
 
